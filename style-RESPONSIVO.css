@@ -1,0 +1,65 @@
+@media (max-width: 57.5em){
+
+    .container{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .encriptar{
+        width: 100%;
+    }
+
+    .texto{
+        width: 80%;
+        height: 60%;
+        left: 10%;
+        top: 5%;
+    }
+
+    .terminos{
+        width: 80%;
+        left: 10%;
+        top: 67%;
+    }
+
+    .terminos p{
+        font-size: 16px;
+    }
+
+    .botones{
+        width: 80%;
+        left: 10%;
+        top: 70%;
+    }
+
+    .btn-encriptar, .btn-desencriptar{
+        width: 48%;
+        border-radius: 16px;
+    }
+
+    .btn-encriptar:hover, 
+    .btn-desencriptar:hover{
+        margin: 0.3%;
+        padding: 1.8%;
+        width: 47.5%;
+    }
+
+    .encriptado{
+        width: 80%;
+        height: 15%;
+        left: 10%;
+        top: 80%;
+    }
+
+    .mensaje{
+        width: 100%;
+        top: 5%;
+    }
+
+    .encriptado img{
+        top: 150%;
+        display: block;
+        display: none;
+        visibility: hidden;
+    }
+}
