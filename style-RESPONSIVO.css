@@ -1,25 +1,32 @@
-@media (max-width: 57.5em){
+@media screen and (max-width: 769px) {
 
     .container{
         display: flex;
         flex-direction: row;
-    }
-
-    .encriptar{
         width: 100%;
     }
 
+    .encriptar{
+        display: flex;
+        flex-direction: row;
+        width: 70%;
+    }
+
     .texto{
-        width: 80%;
-        height: 60%;
+        width: 30.9%;
+        text-align: justify;
+        height: 50%;
         left: 10%;
         top: 5%;
     }
 
     .terminos{
-        width: 80%;
-        left: 10%;
-        top: 67%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 45%;
+        left: 7.5%;
+        top: 60%;
     }
 
     .terminos p{
@@ -27,39 +34,60 @@
     }
 
     .botones{
+        display: flex;
+        flex-direction: column;
         width: 80%;
-        left: 10%;
-        top: 70%;
+        left: 7.5%;
+        top: 71.8%;
     }
 
     .btn-encriptar, .btn-desencriptar{
-        width: 48%;
-        border-radius: 16px;
+        width: 50%;
+        border-radius: 24px;
+        border-style: none;
+        box-sizing: border-box;
     }
 
     .btn-encriptar:hover, 
     .btn-desencriptar:hover{
         margin: 0.3%;
         padding: 1.8%;
-        width: 47.5%;
+        width: 55.5%;
     }
 
     .encriptado{
-        width: 80%;
-        height: 15%;
-        left: 10%;
-        top: 80%;
+        display: flex;
+        flex-direction: row;
+        width: 45%;
+        height: 60%;
+        top: 2.20%;
     }
 
     .mensaje{
-        width: 100%;
-        top: 5%;
+        width: 90%;
+        top: 70%;
+        left: -8%;
+        text-align: start;
     }
 
     .encriptado img{
-        top: 150%;
+        top: 8%;
+        left: 0;
         display: block;
-        display: none;
-        visibility: hidden;
+    }
+
+    #titulo-mensaje{
+        width: 80%;
+        font-size: 20px;
+        text-align: start;
+    }
+
+    #parrafo{
+        width: 70%;
+        font-size: 17px;
+        text-align: left;
+        margin-top: 17.5%;
     }
 }
+
+
